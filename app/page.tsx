@@ -1,25 +1,25 @@
-import { Header } from "@/components/header"
-import { HeroSection } from "@/components/hero-section"
-import { AboutSection } from "@/components/about-section"
-import { FeaturesSection } from "@/components/features-section"
-import { ProjectsSection } from "@/components/projects-section"
-import { TestimonialsSection } from "@/components/testimonials-section"
-import { CTASection } from "@/components/cta-section"
+import { Navbar } from "@/components/navbar"
+import { Hero } from "@/components/hero"
+import { About } from "@/components/about"
+import { Kits } from "@/components/kits"
+import { Projects } from "@/components/projects"
+import { ComparisonTable } from "@/components/comparison-table"
+import { Testimonials } from "@/components/testimonials"
+import { CTA } from "@/components/cta"
 import { Footer } from "@/components/footer"
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <main>
-        <HeroSection />
-        <AboutSection />
-        <FeaturesSection />
-        <ProjectsSection />
-        <TestimonialsSection />
-        <CTASection />
-      </main>
+    <main className="min-h-screen bg-background">
+      <Navbar />
+      <Hero />
+      <About />
+      <Kits />
+      <Projects />
+      <ComparisonTable />
+      <Testimonials />
+      <CTA />
       <Footer />
-    </div>
+    </main>
   )
 }

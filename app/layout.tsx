@@ -2,19 +2,15 @@ import type React from "react"
 import type { Metadata } from "next"
 import { GeistSans } from "geist/font/sans"
 import { GeistMono } from "geist/font/mono"
+import { Analytics } from "@vercel/analytics/next"
+import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "GizmoBox - Your Pocket Lab for Electronics",
+  title: "Gizmobox by Techemonkitz - Electronics Kits for Engineers",
   description:
-    "DIY electronics kit specially designed for first year engineering students and younger learners. Build foundational projects without complexity.",
-  keywords: ["DIY electronics", "engineering students", "electronics kit", "learning", "STEM education"],
-  authors: [{ name: "GizmoBox" }],
-  openGraph: {
-    title: "GizmoBox - Your Pocket Lab for Electronics",
-    description: "DIY electronics kit for engineering students and young learners",
-    type: "website",
-  },
+    "Like Doraemon's Pocket, But for Engineers. Learn electronics step by step with our DIY, Sensor, and Advanced kits.",
+  generator: "v0.app",
 }
 
 export default function RootLayout({
@@ -23,8 +19,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable} antialiased`}>
-      <body className="font-sans">{children}</body>
+    <html lang="en">
+      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+        <Suspense fallback={null}>{children}</Suspense>
+        <Analytics />
+      </body>
     </html>
   )
 }

@@ -4,81 +4,75 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated to electronics-inspired color scheme with copper, electric blue, and circuit green */
-  --background: oklch(0.98 0.005 60); /* Warm white with slight copper tint */
-  --foreground: oklch(0.25 0.02 240); /* Dark blue-gray for electronics feel */
-  --card: oklch(0.95 0.01 220); /* Light blue-gray card background */
-  --card-foreground: oklch(0.25 0.02 240); /* Dark blue-gray */
-  --popover: oklch(0.98 0.005 60); /* Warm white */
-  --popover-foreground: oklch(0.25 0.02 240); /* Dark blue-gray */
-  /* Made primary color much darker for better contrast with white text */
-  --primary: oklch(0.35 0.25 30); /* Darker copper/orange - like PCB traces */
-  --primary-foreground: oklch(0.98 0.005 60); /* Light text on copper */
-  --secondary: oklch(0.55 0.3 240); /* Electric Blue - like LED light */
-  --secondary-foreground: oklch(0.98 0.005 60); /* Light text on blue */
-  --muted: oklch(0.92 0.02 220); /* Muted blue-gray */
-  --muted-foreground: oklch(0.45 0.02 240); /* Medium blue-gray */
-  --accent: oklch(0.6 0.35 140); /* Bright Circuit Green - like status LEDs */
-  --accent-foreground: oklch(0.15 0.02 240); /* Dark text on green */
-  --destructive: oklch(0.6 0.3 15); /* Red for warnings/errors */
-  --destructive-foreground: oklch(0.98 0.005 60);
-  --border: oklch(0.85 0.02 220); /* Light blue-gray border */
-  --input: oklch(0.98 0.005 60); /* Input background */
-  /* Made ring color darker to match new primary */
-  --ring: oklch(0.35 0.25 30 / 0.3); /* Darker copper focus ring */
-  --chart-1: oklch(0.55 0.3 240); /* Electric Blue */
-  --chart-2: oklch(0.6 0.35 140); /* Circuit Green */
-  /* Made chart-3 darker to match new primary */
-  --chart-3: oklch(0.35 0.25 30); /* Darker Copper */
-  --chart-4: oklch(0.65 0.2 280); /* Purple - like UV LEDs */
-  --chart-5: oklch(0.7 0.15 60); /* Gold - like connectors */
-  --radius: 0.5rem;
-  --sidebar: oklch(0.95 0.01 220);
-  --sidebar-foreground: oklch(0.25 0.02 240);
-  /* Made sidebar-primary darker to match new primary */
-  --sidebar-primary: oklch(0.35 0.25 30);
-  --sidebar-primary-foreground: oklch(0.98 0.005 60);
-  --sidebar-accent: oklch(0.55 0.3 240);
-  --sidebar-accent-foreground: oklch(0.98 0.005 60);
-  --sidebar-border: oklch(0.85 0.02 220);
-  /* Made sidebar-ring darker to match new primary */
-  --sidebar-ring: oklch(0.35 0.25 30 / 0.3);
+  /* Updated color scheme for tech-inspired Gizmobox theme */
+  --background: #0a1e3f; /* Dark blue background */
+  --foreground: #ffffff; /* White text */
+  --card: #1a2530; /* Slightly lighter dark for cards */
+  --card-foreground: #ffffff; /* White text on cards */
+  --popover: #1a2530; /* Slightly lighter dark for popovers */
+  --popover-foreground: #ffffff; /* White text in popovers */
+  --primary: #00ffcc; /* Neon cyan for call-to-action buttons */
+  --primary-foreground: #0a1e3f; /* Dark blue text on primary buttons */
+  --secondary: #39ff14; /* Neon green for highlights */
+  --secondary-foreground: #0a1e3f; /* Dark blue text on secondary buttons */
+  --muted: #2c3e50; /* Dark gray for muted elements */
+  --muted-foreground: #f0f4f8; /* Light gray text for muted elements */
+  --accent: #00ffcc; /* Neon cyan for accents */
+  --accent-foreground: #0a1e3f; /* Dark blue text for accent elements */
+  --destructive: #ff3860; /* Red for destructive actions */
+  --destructive-foreground: #ffffff; /* White text on destructive buttons */
+  --border: #2c3e50; /* Dark gray for borders */
+  --input: #2c3e50; /* Dark gray for input fields */
+  --ring: #00ffcc; /* Neon cyan for focus rings */
+  --chart-1: #39ff14; /* Neon green for chart data */
+  --chart-2: #00ffcc; /* Neon cyan for chart data */
+  --chart-3: #ffffff; /* White for chart data */
+  --chart-4: #2c3e50; /* Dark gray for chart data */
+  --chart-5: #f0f4f8; /* Light gray for chart data */
+  --radius: 0.5rem; /* Rounded corners */
+  --sidebar: #1a2530; /* Dark sidebar background */
+  --sidebar-foreground: #ffffff; /* White text in sidebar */
+  --sidebar-primary: #00ffcc; /* Neon cyan for sidebar highlights */
+  --sidebar-primary-foreground: #0a1e3f; /* Dark blue text on sidebar highlights */
+  --sidebar-accent: #39ff14; /* Neon green for sidebar accents */
+  --sidebar-accent-foreground: #0a1e3f; /* Dark blue text on sidebar accents */
+  --sidebar-border: #2c3e50; /* Dark gray for sidebar borders */
+  --sidebar-ring: #00ffcc; /* Neon cyan for sidebar focus */
 }
 
 .dark {
-  /* Dark mode with electronics lab aesthetic - dark PCB background with bright component colors */
-  --background: oklch(0.12 0.02 240); /* Dark blue-black like PCB substrate */
-  --foreground: oklch(0.9 0.05 140); /* Bright green text like terminal displays */
-  --card: oklch(0.15 0.02 240); /* Slightly lighter dark blue */
-  --card-foreground: oklch(0.9 0.05 140); /* Bright green text */
-  --popover: oklch(0.12 0.02 240); /* Dark background */
-  --popover-foreground: oklch(0.9 0.05 140); /* Bright green text */
-  --primary: oklch(0.65 0.3 35); /* Bright copper/orange - like heated components */
-  --primary-foreground: oklch(0.12 0.02 240); /* Dark text on bright copper */
-  --secondary: oklch(0.7 0.35 240); /* Bright electric blue - like active circuits */
-  --secondary-foreground: oklch(0.12 0.02 240); /* Dark text on bright blue */
-  --muted: oklch(0.2 0.02 240); /* Muted dark blue */
-  --muted-foreground: oklch(0.65 0.05 140); /* Muted green */
-  --accent: oklch(0.75 0.4 140); /* Bright neon green - like active status LEDs */
-  --accent-foreground: oklch(0.12 0.02 240); /* Dark text on bright green */
-  --destructive: oklch(0.7 0.35 15); /* Bright red for errors */
-  --destructive-foreground: oklch(0.12 0.02 240);
-  --border: oklch(0.25 0.02 240); /* Dark border */
-  --input: oklch(0.15 0.02 240); /* Dark input background */
-  --ring: oklch(0.65 0.3 35 / 0.4); /* Bright copper focus ring */
-  --chart-1: oklch(0.7 0.35 240); /* Bright Electric Blue */
-  --chart-2: oklch(0.75 0.4 140); /* Bright Circuit Green */
-  --chart-3: oklch(0.65 0.3 35); /* Bright Copper */
-  --chart-4: oklch(0.75 0.3 280); /* Bright Purple */
-  --chart-5: oklch(0.8 0.2 60); /* Bright Gold */
-  --sidebar: oklch(0.1 0.02 240);
-  --sidebar-foreground: oklch(0.9 0.05 140);
-  --sidebar-primary: oklch(0.65 0.3 35);
-  --sidebar-primary-foreground: oklch(0.12 0.02 240);
-  --sidebar-accent: oklch(0.7 0.35 240);
-  --sidebar-accent-foreground: oklch(0.12 0.02 240);
-  --sidebar-border: oklch(0.25 0.02 240);
-  --sidebar-ring: oklch(0.65 0.3 35 / 0.4);
+  --background: #0a1e3f;
+  --foreground: #ffffff;
+  --card: #1a2530;
+  --card-foreground: #ffffff;
+  --popover: #1a2530;
+  --popover-foreground: #ffffff;
+  --primary: #00ffcc;
+  --primary-foreground: #0a1e3f;
+  --secondary: #39ff14;
+  --secondary-foreground: #0a1e3f;
+  --muted: #2c3e50;
+  --muted-foreground: #f0f4f8;
+  --accent: #00ffcc;
+  --accent-foreground: #0a1e3f;
+  --destructive: #ff3860;
+  --destructive-foreground: #ffffff;
+  --border: #2c3e50;
+  --input: #2c3e50;
+  --ring: #00ffcc;
+  --chart-1: #39ff14;
+  --chart-2: #00ffcc;
+  --chart-3: #ffffff;
+  --chart-4: #2c3e50;
+  --chart-5: #f0f4f8;
+  --sidebar: #1a2530;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #00ffcc;
+  --sidebar-primary-foreground: #0a1e3f;
+  --sidebar-accent: #39ff14;
+  --sidebar-accent-foreground: #0a1e3f;
+  --sidebar-border: #2c3e50;
+  --sidebar-ring: #00ffcc;
 }
 
 @theme inline {
@@ -131,47 +125,27 @@
   }
 }
 
-/* Enhanced animations for electronics theme with circuit-like pulsing and component glow effects */
-@keyframes circuit-pulse {
-  0%,
-  100% {
-    opacity: 0.4;
-    box-shadow: 0 0 5px oklch(0.6 0.35 140 / 0.3);
+/* Added custom glow effects for the tech theme */
+@layer utilities {
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
   }
-  50% {
-    opacity: 1;
-    box-shadow: 0 0 20px oklch(0.6 0.35 140 / 0.6), 0 0 30px oklch(0.6 0.35 140 / 0.4);
-  }
-}
 
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0px);
+  .glow-green {
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.3);
   }
-  50% {
-    transform: translateY(-10px);
+
+  .text-glow-cyan {
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
   }
-}
 
-@keyframes electric-glow {
-  0%,
-  100% {
-    box-shadow: 0 0 5px oklch(0.55 0.3 240 / 0.3);
+  .text-glow-green {
+    text-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
   }
-  50% {
-    box-shadow: 0 0 15px oklch(0.55 0.3 240 / 0.6), 0 0 25px oklch(0.55 0.3 240 / 0.4);
+
+  .circuit-pattern {
+    background-image: linear-gradient(90deg, rgba(0, 255, 204, 0.1) 1px, transparent 1px),
+      linear-gradient(rgba(0, 255, 204, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
   }
-}
-
-.circuit-pulse {
-  animation: circuit-pulse 2s ease-in-out infinite;
-}
-
-.float-animation {
-  animation: float 3s ease-in-out infinite;
-}
-
-.electric-glow {
-  animation: electric-glow 1.5s ease-in-out infinite;
 }
