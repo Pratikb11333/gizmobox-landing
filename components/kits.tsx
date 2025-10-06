@@ -23,7 +23,7 @@ const kits = [
     target: "2nd-year mini-projects",
     tagline: "Your gateway to sensor-based projects",
     description: "Explore the world of sensors and timers with practical project-based learning.",
-    components: ["555 Timer", "CD4017", "PIR Sensor", "LDR", "Thermistor", "Microphone", "Speaker", "Switches"],
+    components: ["555 Timer", "PIR Sensor", "LDR", "Thermistor", "Microphone", "Speaker", "Switches"],
     icon: Cpu,
     color: "secondary",
     glowClass: "glow-green",

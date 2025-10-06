@@ -41,7 +41,9 @@ export function Hero() {
 
         {/* CTA Button */}
         <Button size="lg" className="text-lg px-8 py-6 glow-cyan hover:glow-green transition-all duration-300 group">
+          <a href="/Gizmobox brochure.pdf" download="Gizmobox brochure.pdf">
           Let's Build Circuits Together
+          </a>
           <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
         </Button>
 

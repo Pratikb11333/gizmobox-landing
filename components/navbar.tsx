@@ -12,13 +12,13 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center glow-cyan">
-              <Zap className="w-6 h-6 text-primary-foreground" />
-            </div>
-            <div>
-              <span className="text-xl font-bold text-primary text-glow-cyan">Techemonkitz</span>
-              <div className="text-xs text-muted-foreground">Electronics Made Easy</div>
+          <div className="flex items-center space-x-3">
+            <div className="w-28 sm:w-40 md:w-40 lg:w-32">
+              <img
+                src="/logo.png"
+                alt="logo"
+                className="w-full h-auto object-contain"
+              />
             </div>
           </div>
 

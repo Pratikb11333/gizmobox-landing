@@ -7,6 +7,7 @@ import { ComparisonTable } from "@/components/comparison-table"
 import { Testimonials } from "@/components/testimonials"
 import { CTA } from "@/components/cta"
 import { Footer } from "@/components/footer"
+import { KitsCarousel } from "@/components/kits-carousel"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Kits />
       <Projects />
       <ComparisonTable />
+       <KitsCarousel />
       <Testimonials />
       <CTA />
       <Footer />

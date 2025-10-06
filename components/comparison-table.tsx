@@ -4,11 +4,11 @@ import { Check, X } from "lucide-react"
 
 const features = [
   { name: "Basic Components", diy: true, sensor: true, advanced: true },
-  { name: "Breadboard", diy: true, sensor: true, advanced: false },
+  { name: "Breadboard", diy: true, sensor: true, advanced: true },
   { name: "LED & Resistors", diy: true, sensor: true, advanced: true },
   { name: "Sensors (PIR, LDR)", diy: false, sensor: true, advanced: true },
   { name: "Timer Circuits", diy: false, sensor: true, advanced: true },
-  { name: "Microcontroller", diy: false, sensor: false, advanced: true },
+  { name: "Development Board", diy: false, sensor: false, advanced: true },
   { name: "IoT Connectivity", diy: false, sensor: false, advanced: true },
   { name: "Soldering Kit", diy: false, sensor: false, advanced: true },
   { name: "PCB Design", diy: false, sensor: false, advanced: true },
