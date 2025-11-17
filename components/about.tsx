@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card"
-import { Cpu, Lightbulb, Rocket } from "lucide-react"
+import { Cpu, Lightbulb, Rocket } from 'lucide-react'
 
 export function About() {
   return (
@@ -10,8 +10,7 @@ export function About() {
             About <span className="text-primary text-glow-cyan">Gizmobox</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Gizmobox is a hands-on electronics kit developed by Techemonkitz, designed for engineering students to learn
-            electronics step by step — from basics to advanced IoT.
+            Gizmobox is a comprehensive all-in-one electronics kit developed by Techemonkitz, designed for engineering students to master electronics — from basics to advanced IoT projects.
           </p>
         </div>
 
@@ -30,9 +29,9 @@ export function About() {
             <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-secondary/20 transition-colors">
               <Cpu className="w-8 h-8 text-primary group-hover:text-secondary transition-colors" />
             </div>
-            <h3 className="text-xl font-bold mb-4">Progressive Learning</h3>
+            <h3 className="text-xl font-bold mb-4">All-in-One Solution</h3>
             <p className="text-muted-foreground">
-              Three carefully designed kits that progress from basic circuits to advanced IoT projects.
+              One complete kit with everything needed for projects ranging from beginner circuits to advanced IoT automation.
             </p>
           </Card>
 

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Zap } from "lucide-react"
+import { ArrowRight, Zap } from 'lucide-react'
 
 export function Hero() {
   return (
@@ -41,9 +41,7 @@ export function Hero() {
 
         {/* CTA Button */}
         <Button size="lg" className="text-lg px-8 py-6 glow-cyan hover:glow-green transition-all duration-300 group">
-          <a href="/Gizmobox brochure.pdf" download="Gizmobox brochure.pdf">
           Let's Build Circuits Together
-          </a>
           <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
         </Button>
 
@@ -54,12 +52,12 @@ export function Hero() {
             <div className="text-muted-foreground">Students Trained</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-secondary text-glow-green">3</div>
-            <div className="text-muted-foreground">Progressive Kits</div>
+            <div className="text-3xl font-bold text-secondary text-glow-green">1</div>
+            <div className="text-muted-foreground">Complete Kit</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-primary text-glow-cyan">100+</div>
-            <div className="text-muted-foreground">Components</div>
+            <div className="text-3xl font-bold text-primary text-glow-cyan">17+</div>
+            <div className="text-muted-foreground">Included Components</div>
           </div>
         </div>
       </div>

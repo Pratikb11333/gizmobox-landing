@@ -13,7 +13,7 @@ export function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-28 sm:w-40 md:w-40 lg:w-32">
+            <div className="w-28 sm:w-40 md:w-40 lg:w-30">
               <img
                 src="/logo.png"
                 alt="logo"

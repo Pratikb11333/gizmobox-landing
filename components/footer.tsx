@@ -73,16 +73,6 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-muted-foreground hover:text-secondary transition-colors">
-                  DIY Kit
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-secondary transition-colors">
-                  Sensor Kit
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-muted-foreground hover:text-secondary transition-colors">
                   Advanced Kit
                 </a>
               </li>
@@ -105,16 +95,16 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-muted-foreground">
                 <Mail className="w-4 h-4" />
-                <span>hello@techemonkitz.com</span>
+                <span>techemonkitz@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2 text-muted-foreground">
                 <Phone className="w-4 h-4" />
-                <span>+91 98765 43210</span>
+                <span>+91 8529158466, +91 8087127986</span>
               </li>
               <li className="flex items-start space-x-2 text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-1" />
                 <span>
-                  Bangalore, Karnataka
+                  Pune, Maharashtra
                   <br />
                   India
                 </span>
