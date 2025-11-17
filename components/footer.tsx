@@ -99,7 +99,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-2 text-muted-foreground">
                 <Phone className="w-4 h-4" />
-                <span>+91 8529158466, +91 8087127986</span>
+                <span>+918529158466, +919356400814</span>
               </li>
               <li className="flex items-start space-x-2 text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-1" />

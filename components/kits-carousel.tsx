@@ -12,65 +12,7 @@ type Slide = {
 
 const slides: Slide[] = [
   // DIY Kit
-  {
-    kit: "DIY Kit",
-    src: "/DIY Kit/1.jpeg",
-    alt: "DIY Kit LED blinking circuit on a breadboard",
-  },
-  {
-    kit: "DIY Kit",
-    src: "/DIY Kit/2.jpeg",
-    alt: "DIY Kit power rails and wires neatly organized",
-  },
-  {
-    kit: "DIY Kit",
-    src: "/DIY Kit/3.jpeg",
-    alt: "DIY Kit button press controlling a buzzer",
-  },
-  {
-    kit: "DIY Kit",
-    src: "/DIY Kit/4.jpeg",
-    alt: "DIY Kit power rails and wires neatly organized",
-  },
-
-  // Sensor Kit
-  {
-    kit: "Sensor Kit",
-    src: "/Sensor Kit/1.jpeg",
-    alt: "Sensor Kit temperature sensor with LCD display",
-  },
-  {
-    kit: "Sensor Kit",
-    src: "/Sensor Kit/2.jpeg",
-    alt: "Sensor Kit light sensor tracking ambient light",
-  },
-  {
-    kit: "Sensor Kit",
-    src: "/Sensor Kit/3.jpeg",
-    alt: "Sensor Kit motion detector triggering an alarm",
-  },
-  {
-    kit: "Sensor Kit",
-    src: "/Sensor Kit/4.jpeg",
-    alt: "Sensor Kit motion detector triggering an alarm",
-  },
-  {
-    kit: "Sensor Kit",
-    src: "/Sensor Kit/5.jpeg",
-    alt: "Sensor Kit motion detector triggering an alarm",
-  },
-  {
-    kit: "Sensor Kit",
-    src: "/Sensor Kit/6.jpeg",
-    alt: "Sensor Kit motion detector triggering an alarm",
-  },
-  {
-    kit: "Sensor Kit",
-    src: "/Sensor Kit/7.jpeg",
-    alt: "Sensor Kit motion detector triggering an alarm",
-  },
-
-  // Advanced Kit
+  
   {
     kit: "Advance Kit",
     src: "/Advance Kit/1.jpeg",
@@ -89,11 +31,6 @@ const slides: Slide[] = [
   {
     kit: "Advance Kit",
     src: "/Advance Kit/4.jpeg",
-    alt: "Advanced Kit smart home automation node on a desk",
-  },
-  {
-    kit: "Advance Kit",
-    src: "/Advance Kit/5.jpeg",
     alt: "Advanced Kit smart home automation node on a desk",
   },
   {
